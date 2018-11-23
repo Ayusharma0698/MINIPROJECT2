@@ -10,8 +10,11 @@ source of data https://datacatalog.worldbank.org/dataset/health-nutrition-and-po
  
  Dataset has 7 files.
  
- For the first story HNP STATS Country dataset is used. The country code along with the currency and trading system is used as labels and the latitude and longitude are used for the plotting of the symbol map.
+ The dataset is joined using the country code. The HNPStats data file and HNP stats country file is joined using a full outer join.
  
- For the second story the 1960 data (oldest data) from the country stats data dataset is visualised. A bar chart is used for the visualisation
+ For the first story the country code along with the currency and trading system is used as labels and the latitude and longitude are used for the plotting of the map.
  
- For the third story a decade data is visualised. The data for 2000 to 2010 is visualised using a bar chart. The trend is seen that whether the graph increased or decreased for the individual country.
+ For the second story the country code along with the national accounts base year and 2 alpha code are used as labels and the latitude and longitude are used for the plotting of the map.
+ 
+ For the third story a decade data is visualised. The data for 2007 to 2017(latest data) is visualised using a bar chart. The trend is seen that whether the graph increased or decreased for the individual country.
+ 
